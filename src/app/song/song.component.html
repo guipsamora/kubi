@@ -1,0 +1,21 @@
+
+<h1>
+  Um welches Musikstück handelt es sich?
+</h1>
+
+<div class="container-fluid audioCenter">
+  <!-- <audio controls autoplay> -->
+  <audio controls>
+    <source [src]="trackMockService.getSongSrc()" type="audio/mpeg">
+  </audio>
+</div>
+
+<div class="align-center">
+  <button (click)="goToAnswer()" class="btn btn-default btn-xl">Auflösung</button>
+</div>
+
+
+<!-- TODO: Enable again after demonstration -->
+<!-- <a href="javascript:void(0)" (click)="updateSong()">Update Song</a>
+<iframe *ngIf="track" [src]="getTrackUrl()"
+        frameborder="0" allow="encrypted-media" allowtransparency="true"></iframe> -->

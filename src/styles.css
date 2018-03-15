@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.global-background {
+    background-image: linear-gradient(rgb(134, 252, 111) 1%, rgb(13, 212, 26) 101%);
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-xl {
+    font-size: 50px;
+}
+
+.padding-md {
+    padding: 20px;
+}
+
+.full-height {
+    min-height: 100vh;
+}
